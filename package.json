@@ -8,22 +8,23 @@
     "node": ">=4.3.2"
   },
   "dependencies": {
+    "bonjour-hap": "^3.5.1",
     "buffer-shims": "^1.0.0",
     "curve25519-n": "^1.2.0",
     "debug": "^2.2.0",
+    "decimal.js": "^7.2.3",
     "ed25519-hap": "^0.0.5",
     "fast-srp-hap": "^1.0.1",
+    "firebase": "^5.4.2",
     "ip": "^1.1.3",
-    "bonjour-hap": "^3.5.1",
-    "node-persist": "^0.0.11",
-    "decimal.js": "^7.2.3"
+    "node-persist": "^0.0.11"
   },
   "devDependencies": {
     "simple-plist": "0.0.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node BridgedCore.js"
+    "start": "DEBUG=* node BridgedCore.js"
   },
   "repository": {
     "type": "git",
